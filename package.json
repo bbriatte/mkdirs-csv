@@ -1,6 +1,6 @@
 {
   "name": "mkdirs-csv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create directories using a CSV file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,5 +19,8 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "csv-parse": "^4.4.1"
+  },
+  "bin": {
+    "mkdirs-csv": "./dist/index.js"
   }
 }
